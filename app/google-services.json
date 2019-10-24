@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "506065221690",
+    "firebase_url": "https://storelist-46ba1.firebaseio.com",
+    "project_id": "storelist-46ba1",
+    "storage_bucket": "storelist-46ba1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506065221690:android:4f8a43b0484660c107dd03",
+        "android_client_info": {
+          "package_name": "com.android.tony.storelist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506065221690-ej927bo5gm7ti5uk63s8n0hp9uj8jd4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUmD9fSjKrxokNdrI1U70FyD0OHZkhyEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506065221690-ej927bo5gm7ti5uk63s8n0hp9uj8jd4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

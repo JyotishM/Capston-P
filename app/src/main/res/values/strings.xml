@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">StoreList</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="email_pattern">[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+</string>
+    <string name="logout">Logout</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
 </resources>
