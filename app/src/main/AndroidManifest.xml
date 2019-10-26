@@ -13,8 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".StoreListActivity"/>
-        <activity android:name=".MainActivity" android:theme="@style/AppThemeNoActionBar">
+        <activity android:name=".ItemTypeActivity"></activity>
+        <activity android:name=".StoreListActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
