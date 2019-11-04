@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class StoreListActivity extends AppCompatActivity {
     /*List<StoreListModel> storeListModelList;
     StoreListAdapter storeListAdapter;*/
@@ -15,6 +17,15 @@ public class StoreListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_list);
+
+        findViewById(R.id.logoutbutton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(StoreListActivity.this,MainActivity.class));
+                StoreListActivity.this.finish();
+            }
+        });
 
     }
 
